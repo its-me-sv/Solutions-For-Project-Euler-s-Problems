@@ -21,7 +21,10 @@ def iterativeSolution(n, k):
 			maxProduct = prodLst
 	print(maxProduct)
 ```
-#### Time Complexity = O(N - K)
+#### Time Complexity = O(len(N) - K)
+#### In this solution, we will create an function called `getProduct` which will return the product of all the elements in the `list` which was passed as `argument`.
+#### We will convert the given number `N` to an list `no` which will consists of all the digits in the `N` as list element. 
+#### We then use an `for loop` where we will start iterating from `0` till the diffrence between total no of digits and K (i.e) till `len(no) - K`. In each iteration we will find the `product` of each sub list having an length of `K`, and we will have an record of the product obtained in `maxProduct`. After `len(no) - K ` iterations, we will be holding the maximum product value in `maxProduct`.
 ## 🤔 Comparing all the solutions
 ### Code used for comparing [workout.py](workout.py)
 #### Case 1, `N = 3675356291, K = 5`
@@ -49,7 +52,7 @@ K : 13
 Using Loops, Ans : 23514624000, Time : 0.0 seconds
 ```
 ## Time complexity of solutions
-### 🐢 Iterative Solution => O(N - K)
+### 🐢 Iterative Solution => O(len(N) - K)
 ## ✅ Final / Efficient solution 
 #### Solution in [Python](solution.py)
 ```python
