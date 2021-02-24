@@ -66,14 +66,17 @@ N : 100
 Iterative solution, Ans : 73920, Time : 0.28173232078552246 seconds
 Mathematical solution, Ans : 73920, Time : 0.0009968280792236328 seconds
 ```
-#### Case 3, `N = 500`
+#### Case 3, `N = 150`
+```
+N : 150
+Iterative solution, Ans : 749700, Time : 8.784595012664795 seconds
+Mathematical solution, Ans : 749700, Time : 0.004833698272705078 seconds
+```
+#### Case 4, `N = 500`
 ```
 N : 500
 Iterative solution, Ans : 76576500, Time : 9286.559392929077 seconds
 Mathematical solution, Ans : 76576500, Time : 0.28678131103515625 seconds
-```
-#### Case 4, `N = 1000`
-```
 ```
 ## Time complexity of solutions 
 ### 🐢 Iterative Solution => O(N ^ 2)
