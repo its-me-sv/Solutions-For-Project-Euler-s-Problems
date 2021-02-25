@@ -3,7 +3,7 @@
 ### • 🧪 All Solutions
 ### • 🤔 Comparison of solutions
 ### • ✅ Final / Efficient solution in JavaScript and Python
-## 🧪 This problem has 1 solution :
+## 🧪 This problem has 2 solution :
 ### • Iterative solution
 ### • Mathematical solution
 #### For both the solutions, we will find the `triangle number` using an `while loop`. But finding the `total no of divisors` will be different.
