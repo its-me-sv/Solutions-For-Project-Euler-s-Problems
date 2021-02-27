@@ -16,4 +16,4 @@
 | 11 | Largest Product In Grid | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler011/problem) | [Solution](Largest_Product_Grid/README.md) |
 | 12 | Highest Divisible Triangular Number | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler012/problem) | [Solution](Highly_divisible_triangular_number/README.md) |
 | 13 | Large Sum | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler013/problem) | [Solution](Large_Sum/README.md) |
-| 14 | Longest Collantz Sequence | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler014/problem) | [Solution](Longest_Collatz_sequence/README.md) |
+| 14 | Longest Collant Sequence | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler014/problem) | [Solution](Longest_Collatz_sequence/README.md) |
