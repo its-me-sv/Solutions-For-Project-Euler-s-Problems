@@ -20,3 +20,4 @@
 | 15 | Lattice Paths | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler015/problem) | [Solution](Lattice_Paths/README.md) |
 | 16 | Power Digit Sum | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler016/problem) | [Solution](Power_digit_sum/README.md) |
 | 17 | Number Letter Counts | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler017/problem) | [Solution](Number_Letter_Counts/README.md) |
+| 18 | Maximum Path Sum I | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler018/problem) | [Solution](Maximum_Path_Sum_I/README.md) |
