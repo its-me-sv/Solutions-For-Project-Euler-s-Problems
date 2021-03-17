@@ -23,3 +23,4 @@
 | 18 | Maximum Path Sum I | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler018/problem) | [Solution](Maximum_Path_Sum_I/README.md) |
 | 19 | Counting Sundays | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler019/problem) | [Solution](Counting_Sundays/README.md) |
 | 20 | Factorial Digit Sum | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler020/problem) | [Solution](Factorial_Digit_Sum/README.md) |
+| 22 | Names Scores | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler022/problem) | [Solution](Names_Scores/README.md) |
