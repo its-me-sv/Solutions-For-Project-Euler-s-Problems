@@ -25,3 +25,4 @@
 | 20 | Factorial Digit Sum | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler020/problem) | [Solution](Factorial_Digit_Sum/README.md) |
 | 21 | Amicable Numbers | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler021/problem) | [Solution](Amicable_Numbers/README.md) |
 | 22 | Names Scores | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler022/problem) | [Solution](Names_Scores/README.md) |
+| 23 | Non-abundant Sums | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler023/problem) | [Solution](Non_Abundant_Sums/README.md) |
