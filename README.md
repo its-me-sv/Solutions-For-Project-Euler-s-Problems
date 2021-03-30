@@ -28,3 +28,4 @@
 | 23 | Non-abundant Sums | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler023/problem) | [Solution](Non_Abundant_Sums/README.md) |
 | 24 | Lexicographic Permutations | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler024/problem) | [Solution](Lexicographic_Permutations/README.md) |
 | 25 | N-digit Fibonacci number | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler025/problem) | [Solution](N-digit_Fibonacci_number/README.md) |
+| 26 | Reciprocal Cycles | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler026/problem) | [Solution](Reciprocal_Cycles/README.md) |
