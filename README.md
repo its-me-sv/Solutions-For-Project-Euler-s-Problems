@@ -30,3 +30,4 @@
 | 25 | N-digit Fibonacci number | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler025/problem) | [Solution](N-digit_Fibonacci_number/README.md) |
 | 26 | Reciprocal Cycles | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler026/problem) | [Solution](Reciprocal_Cycles/README.md) |
 | 27 | Quadratic Primes | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler027/problem) | [Solution](Quadratic_Primes/README.md) |
+| 28 | Number Spiral Diagonals | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler028/problem) | [Solution](Number_Spiral_Diagonals/README.md) |
