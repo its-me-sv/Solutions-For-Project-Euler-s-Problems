@@ -1,5 +1,8 @@
 # 🧪 Solutions For Project Euler's Problems
 ## This repository consists solutions for problems from [Project Euler](https://projecteuler.net/). Along with solutions the repository consists of comparison of the solutions for different scenarios with detailed explanation and time complexity analysis. The solution will be available in both 🌐 JavaScript and 🐍 Python.
+### For Contributors : If you find your algorithm to be efficient than the one provided here, feel free to contribute it here
+### Current Contributors: 
+#### [Suraj Vijay](https://github.com/its-me-sv)
 
 |  S.No |         Title                    |          |          |
 |---|-----------------------------|----------|----------|
