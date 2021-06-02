@@ -31,3 +31,4 @@
 | 26 | Reciprocal Cycles | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler026/problem) | [Solution](Reciprocal_Cycles/README.md) |
 | 27 | Quadratic Primes | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler027/problem) | [Solution](Quadratic_Primes/README.md) |
 | 28 | Number Spiral Diagonals | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler028/problem) | [Solution](Number_Spiral_Diagonals/README.md) |
+| 29 | Distinct Powers | [Question](https://projecteuler.net/problem=29) | [Solution](Distinct_Powers/README.md) |
