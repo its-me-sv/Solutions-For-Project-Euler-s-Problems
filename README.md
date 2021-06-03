@@ -1,8 +1,8 @@
 # 🧪 Solutions For Project Euler's Problems
 ## This repository consists solutions for problems from [Project Euler](https://projecteuler.net/). Along with solutions the repository consists of comparison of the solutions for different scenarios with detailed explanation and time complexity analysis. The solution will be available in both 🌐 JavaScript and 🐍 Python.
 ### For Contributors : If you find your algorithm to be efficient than the one provided here, feel free to contribute it here
-### 💪 Current Contributors: 
-* ### [Suraj Vijay](https://github.com/its-me-sv)
+#### Current Contributors: 
+#### [Suraj Vijay](https://github.com/its-me-sv)
 
 |  S.No |         Title                    |          |          |
 |---|-----------------------------|----------|----------|
@@ -35,3 +35,4 @@
 | 27 | Quadratic Primes | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler027/problem) | [Solution](Quadratic_Primes/README.md) |
 | 28 | Number Spiral Diagonals | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler028/problem) | [Solution](Number_Spiral_Diagonals/README.md) |
 | 29 | Distinct Powers | [Question](https://projecteuler.net/problem=29) | [Solution](Distinct_Powers/README.md) |
+| 30 | Digit Fifth Powers | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler030/problem) | [Solution](Digit_Fifth_Powers/README.md) |
