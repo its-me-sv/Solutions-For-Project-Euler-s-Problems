@@ -36,3 +36,4 @@
 | 28 | Number Spiral Diagonals | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler028/problem) | [Solution](Number_Spiral_Diagonals/README.md) |
 | 29 | Distinct Powers | [Question](https://projecteuler.net/problem=29) | [Solution](Distinct_Powers/README.md) |
 | 30 | Digit Fifth Powers | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler030/problem) | [Solution](Digit_Fifth_Powers/README.md) |
+| 31 | Coin Sums | [Question](https://www.hackerrank.com/contests/projecteuler/challenges/euler031/problem) | [Solution](Coin_Sums/README.md) |
