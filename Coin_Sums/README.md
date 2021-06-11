@@ -42,6 +42,7 @@ def using1dArray(userAmount):
     answer = dp1[userAmount] % MOD
     print("Using 1D Array, Ans: {}, Time: {} seconds".format(answer, time()-START))
 ```
+#### This approach is similar to the `2D array aprroach`, but we would make use of the `prefix sum` concept wisely in order to `elminate` the places which we actually `don't require` for the finding the result
 ## 🤔 Comparing all the solutions 
 ### Code used for comparing [workout.py](workout.py)
 #### Case 1, `Amount = 2 x 10^2`
