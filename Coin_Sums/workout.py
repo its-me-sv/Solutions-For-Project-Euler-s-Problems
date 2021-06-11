@@ -1,50 +1,42 @@
 from time import time
 
+GIVEN_COINS = [1, 2, 5, 10, 20, 50, 100, 200]
+N = len(GIVEN_COINS)
+MAX_AMOUNT = 10 ** 5
 MOD = (10 ** 9) + 7
-COINS = [1, 2, 5, 10, 20, 50, 100, 200]
-MAX_AMOUNT = 100001
-N = len(COINS) + 1
 
-def using2DArray(userAmount):
+def using2dArray(userAmount):
     START = time()
-    dp2 = [[0] * MAX_AMOUNT] * N
-
-    for i in range(N):
+    dp2 = [[0] * (MAX_AMOUNT + 1)] * (N + 1)
+    for i in range(N + 1):
         dp2[i][0] = 1
-
-    for i in range(1, N):
-        for j in range(1, MAX_AMOUNT):
-            if j >= COINS[i - 1]:
-                dp2[i][j] = dp2[i][j-COINS[i-1]] + dp2[i-1][j]
+    for i in range(1, N + 1):
+        for j in range(MAX_AMOUNT + 1):
+            if j >= GIVEN_COINS[i-1]:
+                dp2[i][j] = dp2[i][j-GIVEN_COINS[i-1]] + dp2[i-1][j]
             else:
                 dp2[i][j] = dp2[i-1][j]
+    answer = dp2[N][userAmount] % MOD
+    print("Using 2D Array, Ans: {}, Time: {} seconds".format(answer, time()-START))
 
-    ans = dp2[N-1][userAmount] % MOD 
-    
-    print("using2DArray, Ans : {}, Time : {} Seconds".format(ans, time()-START))
-
-
-def using1DArray(userAmount):
+def using1dArray(userAmount):
     START = time()
-    dp1 = [0] * MAX_AMOUNT
+    dp1 = [0] * (MAX_AMOUNT + 1)
     dp1[0] = 1
+    for i in range(N):
+        for j in range(GIVEN_COINS[i], MAX_AMOUNT + 1):
+            dp1[j] += dp1[j-GIVEN_COINS[i]]
+    answer = dp1[userAmount] % MOD
+    print("Using 1D Array, Ans: {}, Time: {} seconds".format(answer, time()-START))
 
-    for i in range(N - 1):
-        for j in range(COINS[i], MAX_AMOUNT):
-            dp1[j] += dp1[j-COINS[i]]
 
-    ans = dp1[userAmount] % MOD
+def compare(userInput):
+    global caseNo
+    using2dArray(userInput)
+    using1dArray(userInput)
+    print("-------")
 
-    print("using1DArray, Ans : {}, Time : {} Seconds".format(ans, time()-START))
-
-using2DArray(100)
-using2DArray(1000)
-using2DArray(10000)
-using2DArray(100000)
-
-print("--------")
-
-using1DArray(100)
-using1DArray(1000)
-using1DArray(10000)
-using1DArray(100000)
+compare(200)
+compare(1000)
+compare(10000)
+compare(100000)

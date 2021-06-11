@@ -3,24 +3,20 @@ const readline = require('readline').createInterface({
     output: process.stdout
 });
 
-const getPossibleWays = input => {
-    let coins = [1, 2, 5, 10, 20, 50, 100, 200];
-    let amount = parseInt(input);
-
-    let dp = new Array(amount + 1).fill(0);
-    dp[0] = 1;
-
-    for (let i = 0; i < coins.length; i += 1)
-        for (let j = coins[i]; j <= amount; j += 1)
-            dp[j] += dp[j-coins[i]];
-
-    return dp[amount];
-};
+const GIVEN_COINS = [1, 2, 5, 10, 20, 50, 100, 200];
+const N = GIVEN_COINS.length;
+const MOD = (10 ** 9) + 7;
+const dp = new Array(amount + 1).fill(0);
+dp[0] = 1;
 
 readline.question(
     "Amount: ", 
-    userInput => {
-        console.log(getPossibleWays(userInput));
+    amount => {
+        amount = parseInt(amount);
+        for (let i = 0; i < N; i += 1) 
+            for (let j = GIVEN_COINS[i]; j <= amount; j += 1)
+                dp[j] += dp[j-GIVEN_COINS[i]];
+        console.log(dp[amount] % MOD);
         readline.close();
     }
 );
